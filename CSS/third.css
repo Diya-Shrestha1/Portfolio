@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    background-image: linear-gradient(to right, rgb(61, 123, 176), #D2EFFD);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.heading{
+    padding-left: 558px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    color: black;
+}
+
+
+.art{
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 360px;
+
+}
+.art img{
+    height: 590px;
+   
+}
+.art .name{
+    padding-left: 140px;
+}
+
+.travel{
+    padding-left:1%;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 314px;
+}
+.travel .name{
+    padding-left: 100px;
+}
+
+.photography{
+    padding-right: 5%;
+    padding-left: 6%;
+    display: flex;
+    flex-direction: column;
+    width: 314px;
+}
+.photography .name{
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 768px){
+    .container{height: 100%; width: 100%;}
+    .container {flex-direction: column;}
+    .container .jimin {width: 100vw; height:auto;}
+    .container .emma {width: 100vw; height:auto}
+    .container .hayley {width: 100vw; height:auto}
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(61, 123, 176), #D2EFFD);
+   
+}
+.empty{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.list{
+    padding-top: 5%;
+    font-size: 100px;
+    padding-left: 10%;
+}
+.item{
+    padding-top: 10%;
+}
