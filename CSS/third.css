@@ -14,7 +14,7 @@ body{
 }
 .heading{
     padding-left: 558px;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 1%;
     color: black;
 }
@@ -65,4 +65,23 @@ body{
     .container .jimin {width: 100vw; height:auto;}
     .container .emma {width: 100vw; height:auto}
     .container .hayley {width: 100vw; height:auto}
+}
+button{
+    font-size: 20px;
+    font-weight: 300px;
+    height: 30px;
+    width:200px;
+    margin-top: 7%;
+    margin-left: 55%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(164, 143, 118);
+    border: none;
+    border-radius: 500;
+}
+button:hover{
+    color: aquamarine;
+    cursor: pointer;
 }
